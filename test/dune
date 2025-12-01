@@ -1,0 +1,6 @@
+(test
+ (name day01)
+ (modules day01)
+ (libraries alcotest aoc_2025)
+ (deps
+  (file %{project_root}/test/data/day01_sample.txt)))
